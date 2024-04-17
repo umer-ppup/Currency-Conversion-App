@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvGoldWeight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="@string/textview"
+            android:textAlignment="textStart"
+            android:textColor="@color/lightGreen"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/tv24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <TextView
+            android:id="@+id/tv24"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/_24k_gold"
+            android:textAlignment="textStart"
+            android:textColor="@color/darkGreen"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/tvCarat24"
+            app:layout_constraintEnd_toEndOf="@+id/tvCarat24"
+            app:layout_constraintStart_toStartOf="@+id/tvCarat24"
+            app:layout_constraintTop_toBottomOf="@+id/tvGoldWeight" />
+
+        <TextView
+            android:id="@+id/tv22"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="@string/_22k_gold"
+            android:textAlignment="textStart"
+            android:textColor="@color/darkGreen"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/tv24"
+            app:layout_constraintEnd_toEndOf="@+id/tvCarat22"
+            app:layout_constraintStart_toStartOf="@+id/tvCarat22"
+            app:layout_constraintTop_toTopOf="@+id/tv24" />
+
+        <TextView
+            android:id="@+id/tv21"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="@string/_21k_gold"
+            android:textAlignment="textStart"
+            android:textColor="@color/darkGreen"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/tv22"
+            app:layout_constraintEnd_toEndOf="@+id/tvCarat21"
+            app:layout_constraintStart_toStartOf="@+id/tvCarat21"
+            app:layout_constraintTop_toTopOf="@+id/tv22" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="@string/_18k_gold"
+            android:textAlignment="textStart"
+            android:textColor="@color/darkGreen"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/tv21"
+            app:layout_constraintEnd_toEndOf="@+id/tvCarat18"
+            app:layout_constraintStart_toStartOf="@+id/tvCarat18"
+            app:layout_constraintTop_toTopOf="@+id/tv21" />
+
+        <TextView
+            android:id="@+id/tvCarat24"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/textview"
+            android:textAlignment="textStart"
+            android:textColor="@color/darkGreen"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tvCarat22"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv24" />
+
+        <TextView
+            android:id="@+id/tvCarat22"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/textview"
+            android:textAlignment="textStart"
+            android:textColor="@color/darkGreen"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="@+id/tvCarat24"
+            app:layout_constraintEnd_toStartOf="@+id/tvCarat21"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tvCarat24"
+            app:layout_constraintTop_toTopOf="@+id/tvCarat24" />
+
+        <TextView
+            android:id="@+id/tvCarat21"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/textview"
+            android:textAlignment="textStart"
+            android:textColor="@color/darkGreen"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="@+id/tvCarat22"
+            app:layout_constraintEnd_toStartOf="@+id/tvCarat18"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tvCarat22"
+            app:layout_constraintTop_toTopOf="@+id/tvCarat22" />
+
+        <TextView
+            android:id="@+id/tvCarat18"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/textview"
+            android:textAlignment="textStart"
+            android:textColor="@color/darkGreen"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="@+id/tvCarat21"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tvCarat21"
+            app:layout_constraintTop_toTopOf="@+id/tvCarat21" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

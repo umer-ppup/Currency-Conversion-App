@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/notify"
+        app:showAsAction="always"
+        android:title="@string/notify_me" />
+    <item
+        android:id="@+id/btnNotify"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        app:showAsAction="always"
+        android:title="@string/notify_when" />
+
+    <item
+        android:id="@+id/btnNotification"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        app:showAsAction="always"
+        android:title="@string/notify_when" />
+
+    <item
+        android:id="@+id/sort_menu_rate"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_more_vert_24"
+        android:title="">
+        <menu>
+            <item android:id="@+id/ATZ"
+                android:title="@string/ascending_sort" />
+            <item android:id="@+id/ZTA"
+                android:title="@string/descending_sort" />
+            <item android:id="@+id/HLB"
+                android:title="@string/high_to_low_buying" />
+            <item android:id="@+id/HLS"
+                android:title="@string/high_to_low_selling" />
+            <item android:id="@+id/LHB"
+                android:title="@string/low_to_high_buying" />
+            <item android:id="@+id/LHS"
+                android:title="@string/low_to_high_selling" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/sort_menu_converter"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_more_vert_24"
+        android:title="">
+        <menu>
+            <item android:id="@+id/atz"
+                android:title="@string/ascending_sort" />
+            <item android:id="@+id/zta"
+                android:title="@string/descending_sort" />
+            <item android:id="@+id/pin"
+                android:title="@string/pin_at_top" />
+            <item android:id="@+id/MOST"
+                android:title="@string/most_pakistan_populated_regions" />
+
+        </menu>
+    </item>
+</menu>

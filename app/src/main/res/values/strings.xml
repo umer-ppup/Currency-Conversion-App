@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">Pakistan Currency Rates Today &amp; Converter</string>
+
+    <string-array name="limited_currency_codes">
+        <item>SAR</item>
+        <item>AED</item>
+        <item>GBP</item>
+        <item>USD</item>
+        <item>PKR</item>
+        <item>ZAR</item>
+        <item>OMR</item>
+        <item>CAD</item>
+        <item>QAR</item>
+        <item>EUR</item>
+        <item>BHD</item>
+        <item>KWD</item>
+        <item>AUD</item>
+        <item>MYR</item>
+        <item>NOK</item>
+        <item>IRR</item>
+        <item>DKK</item>
+        <item>SEK</item>
+        <item>HKD</item>
+        <item>JOD</item>
+        <item>CNY</item>
+        <item>JPY</item>
+        <item>KRW</item>
+        <item>LYD</item>
+        <item>INR</item>
+        <item>THB</item>
+        <item>SGD</item>
+        <item>IQD</item>
+        <item>KES</item>
+    </string-array>
+
+    <string-array name="sorted_currency_names">
+        <item>Saudi Arabia</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>Pakistan</item>
+        <item>South Africa</item>
+        <item>Oman</item>
+        <item>Canada</item>
+        <item>Qatar</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Bahrain</item>
+        <item>Kuwait</item>
+        <item>Spain</item>
+        <item>Germany</item>
+        <item>Australia</item>
+        <item>Malaysia</item>
+        <item>Norway</item>
+        <item>Iran</item>
+        <item>Greece</item>
+        <item>Denmark</item>
+        <item>Sweden</item>
+        <item>Netherlands</item>
+        <item>Belgium</item>
+        <item>Hong Kong</item>
+        <item>Jordan</item>
+        <item>China</item>
+        <item>Japan</item>
+        <item>Ireland</item>
+        <item>South Korea</item>
+        <item>Libya</item>
+        <item>India</item>
+        <item>Thailand</item>
+        <item>Austria</item>
+        <item>Singapore</item>
+        <item>Iraq</item>
+        <item>Kenya</item>
+    </string-array>
+
+    <string-array name="scrap_code">
+        <item>SAR</item>
+        <item>AED</item>
+        <item>GBP</item>
+        <item>USD</item>
+        <item>OMR</item>
+        <item>CAD</item>
+        <item>QAR</item>
+        <item>EUR</item>
+        <item>BHD</item>
+        <item>KWD</item>
+        <item>AUD</item>
+        <item>MYR</item>
+        <item>NOK</item>
+        <item>DKK</item>
+        <item>SEK</item>
+        <item>HKD</item>
+        <item>CNY</item>
+        <item>JPY</item>
+        <item>INR</item>
+        <item>THB</item>
+        <item>SGD</item>
+        <item>KES</item>
+        <item>NZD</item>
+        <item>CHF</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="buying">Buying</string>
+    <string name="selling">Selling</string>
+    <string name="pakistan_flag">Pakistan Flag</string>
+    <string name="rates">Rates</string>
+    <string name="converter">Converter</string>
+    <string name="pakistan_open_rates">Pakistan Open Rates</string>
+    <string name="tvcountryname">tvCountryName</string>
+    <string name="textview">TextView</string>
+    <string name="notify_me">Notify Me</string>
+    <string name="notify_when">Notify When?</string>
+    <string name="unable_to_load">Unable to load data. Check your internet.</string>
+    <string name="number_format_exception">Invalid input, please enter valid input.</string>
+    <string name="ascending_sort">Ascending sort</string>
+    <string name="descending_sort">Descending sort</string>
+    <string name="high_to_low_buying">High to low buying</string>
+    <string name="high_to_low_selling">High to low selling</string>
+    <string name="low_to_high_buying">Low to high buying</string>
+    <string name="low_to_high_selling">Low to high selling</string>
+    <string name="pin_at_top">Pin at Top</string>
+    <string name="most_pakistan_populated_regions">Most Pakistanis populated regions</string>
+    <string name="splash_screen_image">Splash Screen Image</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="pakistan_gold_rates">Pakistan Gold Rates</string>
+    <string name="_24k_gold">24K Gold</string>
+    <string name="_22k_gold">22K Gold</string>
+    <string name="_21k_gold">21K Gold</string>
+    <string name="_18k_gold">18K Gold</string>
+    <string name="gold_rates">Gold Rates</string>
+    <string name="pak_flag_url">example-url</string>
+    <string name="gold_rate_url">example-url</string>
+    <string name="open_rate_url">example-url</string>
+    <string name="not_pin_text">Notification feature only applies on pinned countries. Please pin some countries and then click again to set notification time.</string>
+    <string name="select_time_text">Select time on which you will be notified everyday.</string>
+    <string name="select_currency">Select currency</string>
+    <string name="notification_on_off">Notification On/Off</string>
+    <string name="select_condition">Select Condition</string>
+    <string name="enter_value">Enter Value</string>
+    <string name="pkr">PKR</string>
+    <string name="select_buy_sell">Select Buy/Sell</string>
+    <string name="off">Off</string>
+    <string name="save">SAVE</string>
+    <string name="date">Date</string>
+
+
+    <string-array name="buy_sell">
+        <item>Buying</item>
+        <item>Selling</item>
+    </string-array>
+
+    <string-array name="condition">
+        <item>Greater than</item>
+        <item>Greater than or equal to</item>
+        <item>Less than</item>
+        <item>Less than or equal to</item>
+        <item>Equal to</item>
+    </string-array>
+</resources>

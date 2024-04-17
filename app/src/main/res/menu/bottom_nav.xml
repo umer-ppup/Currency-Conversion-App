@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_rate"
+        android:enabled="true"
+        android:icon="@drawable/ic_money"
+        android:title="@string/rates" />
+    <item
+        android:id="@+id/item_converter"
+        android:enabled="true"
+        android:icon="@drawable/ic_exchange"
+        android:title="@string/converter"/>
+    <item
+        android:id="@+id/item_gold_rate"
+        android:enabled="true"
+        android:icon="@drawable/ic_gold"
+        android:title="@string/gold_rates" />
+</menu>

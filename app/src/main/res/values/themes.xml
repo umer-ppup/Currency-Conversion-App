@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CurrencyConverterNoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/darkGreen</item>
+        <item name="colorPrimaryVariant">@color/lightGreenDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/darkGreen</item>
+        <item name="colorSecondaryVariant">@color/darkGreen</item>
+        <item name="colorOnSecondary">@color/darkGreen</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="colorControlNormal">@color/darkGreen</item>
+        <item name="actionMenuTextColor">@color/darkGreen</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/darkGreen</item>
+        <item name="android:textColorPrimary">@color/darkGreen</item>
+        <item name="android:textColor">@color/darkGreen</item>
+        <item name="background">@color/white</item>
+    </style>
+
+    <style name="PopupMenuStyle" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/darkGreen</item>
+
+    </style>
+</resources>
